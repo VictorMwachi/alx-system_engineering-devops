@@ -11,3 +11,4 @@
 #rm /tmp/my_first_directory/betty
 #rm -r /tmp/my_first_directory ------------delete directory
 #cd .. ---changes directory to the previouds one
+#ls -al . .. /boot -------list all files including in the parent directory
