@@ -9,4 +9,4 @@
 #mv  /tmp/betty /tmp/my_first_directory/ ----------move file to the stated directory
 
 #rm /tmp/my_first_directory/betty
-#rmdir /tmp/my_first_directory ------------delete directory
+#rm -r /tmp/my_first_directory ------------delete directory
