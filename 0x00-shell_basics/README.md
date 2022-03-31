@@ -6,3 +6,4 @@
 #ls -l -a -n     -list Display current directory contents.Long format with user and group IDs displayed numerically And hidden files (starting with .
 
 #mkdir /tmp/my_fisrt_directory ----create directory in the tmp location
+#mv  /tmp/betty /tmp/my_first_directory/ ----------move file to the stated directiry
