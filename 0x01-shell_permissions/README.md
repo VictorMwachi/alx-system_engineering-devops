@@ -7,4 +7,4 @@
 #chmod ug+x,o+r -------gives group owner user execute permissin,other users read permissions
 #chmod ugo+x hello-------gives every permission to execute hello file
 #chmod 007 hello --------gives permission to other users ownly
-
+#chmod 753 hello ----gives permission-rwxr-x-wx
