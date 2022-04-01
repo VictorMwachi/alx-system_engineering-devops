@@ -4,3 +4,4 @@
 #chown betty hello  -----change owner of file hello to betty
 #touch hello -------creates an empty file hello
 #chmod u+x hello ------adds execute permission to tyhe owner
+#chmod ug+x,o+r -------gives group owner user execute permissin,other users read permissions
