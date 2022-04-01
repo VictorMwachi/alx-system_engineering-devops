@@ -2,3 +2,4 @@
 #whoami -------prints name for current user
 #groups ---------diplays groups current user is in
 #chown betty hello  -----change owner of file hello to betty
+#touch hello -------creates an empty file hello
