@@ -6,3 +6,5 @@
 #chmod u+x hello ------adds execute permission to tyhe owner
 #chmod ug+x,o+r -------gives group owner user execute permissin,other users read permissions
 #chmod ugo+x hello-------gives every permission to execute hello file
+#chmod 007 hello --------gives permission to other users ownly
+
