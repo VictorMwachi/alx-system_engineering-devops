@@ -8,3 +8,4 @@
 #chmod ugo+x hello-------gives every permission to execute hello file
 #chmod 007 hello --------gives permission to other users ownly
 #chmod 753 hello ----gives permission-rwxr-x-wx
+#chmod --reference=olleh hello -----gives mirror permission
