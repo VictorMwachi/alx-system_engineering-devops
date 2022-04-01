@@ -3,3 +3,4 @@
 #groups ---------diplays groups current user is in
 #chown betty hello  -----change owner of file hello to betty
 #touch hello -------creates an empty file hello
+#chmod u+x hello ------adds execute permission to tyhe owner
