@@ -14,3 +14,5 @@
 #ls -t | head ----------displays the 10 newest files in the current directory.
 	    One file per line,  Sorted from the newest to the oldest
 # sort| unique -u -----------takes a list of words as input and prints only words that appear exactly once. Input format: One line, one word Output format: One line, one word;  Words should be sorted
+#grep root /etc/passwd --------prints line that contains "root" in it
+#grep bin /etc/passwd |wc -l -------displays the number of lines that contain bin
