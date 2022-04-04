@@ -9,3 +9,8 @@
 #ls -la > ls_cwd_content---------script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
 #tail -n 1 iacta >> iacta ----duplicates the last line of iacta file
 # find . -name "*.js" -type f -delete ---------deltes all files with .js extension in current directory and sub directories
+#find . -type d | wc -l ------- counts the number of directories and sub-directories in the current directory.
+	    The current and parent directories should not be taken into account, Hidden directories should be counted
+#ls -t | head ----------displays the 10 newest files in the current directory.
+	    One file per line,  Sorted from the newest to the oldest
+
