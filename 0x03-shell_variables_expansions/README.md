@@ -5,3 +5,4 @@
 #printenv -----lists environment variables
 #set -----lists all local variables and environment variables, and functions.
 #BEST=School ------creates local varible named BEST whose value is "School"
+#export BEST=School------creates global variable named BEST whose value is "School"
