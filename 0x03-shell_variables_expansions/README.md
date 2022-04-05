@@ -6,3 +6,4 @@
 #set -----lists all local variables and environment variables, and functions.
 #BEST=School ------creates local varible named BEST whose value is "School"
 #export BEST=School------creates global variable named BEST whose value is "School"
+#echo $(($TRUEKNOWLEDGE+128))---------prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
