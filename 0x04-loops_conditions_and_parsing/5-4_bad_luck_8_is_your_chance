@@ -2,15 +2,17 @@
 #This script is dispaying "Best school" 10 times
 
 i=0
+
 while ((i < 10)) 
 do
 	if ((i == 5))
 	then
 		echo "bad luck"
-	elif ((i == 9)
+	elif ((i == 9))
 	then
 		echo "good luck"
 	else
 		echo "Best School"
+	fi
 	((i++))
 done
