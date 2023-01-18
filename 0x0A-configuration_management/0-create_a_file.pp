@@ -1,5 +1,5 @@
 # a fuller example, including permissions and ownership
-file {'/tmp/school':
+file { '/tmp/school':
   ensure  => 'directory',
   owner   => 'www-data',
   group   => 'www-data'
