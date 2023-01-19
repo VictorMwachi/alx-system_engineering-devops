@@ -20,7 +20,7 @@ events {
     mkdir -p /var/www/holberton
     echo "hello Holberton School" > \
 	/var/www/holberton/index.html
-    service nginx start
+    sudo service nginx start
     if [ $? -ne 0 ]
     then
 	"Problem starting nginx"
