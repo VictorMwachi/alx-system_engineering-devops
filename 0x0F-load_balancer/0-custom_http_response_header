@@ -2,7 +2,6 @@
 # Updates dependencies and packages, plus install de nginx server service
 sudo apt-get -y update
 sudo apt-get -y install nginx
-sudo apt-get -y upgrade
 
 # Search the configuration file
 sudo sed -i '/listen 80 default_server;/a add_header X-Served-By $HOSTNAME;' /etc/nginx/sites-available/default
