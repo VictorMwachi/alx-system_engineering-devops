@@ -4,7 +4,7 @@
 # Update & Upgrade dependencies and packages
 sudo apt-get -y update
 sudo apt-get -y upgrade
-sudo apt-get install -y haproxy
+sudo apt-get -y install haproxy
 
 # Configure HAProxy init
 echo "ENABLED=1" >> /etc/default/haproxy
