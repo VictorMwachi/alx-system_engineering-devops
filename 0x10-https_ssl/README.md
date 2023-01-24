@@ -16,6 +16,8 @@ For this project, we expect you to look at these concepts:
 
     DNS
     Web stack debugging
+![image](https://user-images.githubusercontent.com/20131567/214420229-73a50af1-9f2b-4bce-a476-268121a8df05.png)
+
 
 Background Context
 What happens when you don’t secure your website traffic?
