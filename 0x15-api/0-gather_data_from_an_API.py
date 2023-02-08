@@ -14,7 +14,8 @@ if __name__ == '__main__':
     name = emp_dict.get('name')
     total_tasks = len(to_do_dict)
     tasks_done = sum([i['completed'] for i in to_do_dict])
-    print("Employee {} is done with tasks({}/{}):".formart(name, tasks_done, total_tasks))
+    print("Employee {} is done with tasks({}/{}):"
+          .formart(name, tasks_done, total_tasks))
     for task in to_do_dict:
         if task.get('completed'):
             print('\t {}'.formart(task['title']))
