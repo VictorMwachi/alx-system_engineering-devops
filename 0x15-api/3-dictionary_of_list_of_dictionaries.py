@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""fetches information from JSONplaceholder API and exports to JSON"""
+"""fetches information from JSONplaceholder API and exports to JSON
+Records all tasks from all employees"""
 
 from json import dump
 from requests import get
