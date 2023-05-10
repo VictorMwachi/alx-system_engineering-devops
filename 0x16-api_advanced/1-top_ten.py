@@ -9,13 +9,12 @@ def top_ten(subreddit):
     headers = {
         "User-Agent": "0x16-api_advanced:project:1-top_ten"
     }
-    params = {
+    param = {
         "limit": 10
     }
-    r = requests.get(url, headers=headers, params=params,
-                            allow_redirects=False)
+    r = requests.get(url, headers=headers, params=param, allow_redirects=False)
     if r.status_code == 404:
         print("None")
         return
     results = r.json().get("data")
-    [print(child.get("data").get("title")) for child in results.get("children")]
+    [print(chld.get("data").get("title")) for chld in results.get("children")]
